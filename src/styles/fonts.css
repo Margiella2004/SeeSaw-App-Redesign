@@ -1,0 +1,150 @@
+/* KMR Waldenburg webfont source files (bundled in repo) */
+@font-face {
+  font-family: "KMRWaldenburg";
+  src: url("../assets/fonts/KMRWaldenburg-Book.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "KMRWaldenburg";
+  src: url("../assets/fonts/KMRWaldenburg-Medium.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "KMRWaldenburg";
+  src: url("../assets/fonts/KMRWaldenburg-Bold.woff") format("woff");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+/* Alias all existing project font names to KMR Waldenburg */
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/KMRWaldenburg-Book.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/KMRWaldenburg-Medium.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/KMRWaldenburg-Bold.woff") format("woff");
+  font-style: normal;
+  font-weight: 600 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter:Regular";
+  src: url("../assets/fonts/KMRWaldenburg-Book.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter:Medium";
+  src: url("../assets/fonts/KMRWaldenburg-Medium.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter:Semi_Bold";
+  src: url("../assets/fonts/KMRWaldenburg-Bold.woff") format("woff");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "KMR Waldenburg";
+  src: url("../assets/fonts/KMRWaldenburg-Book.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "KMR Waldenburg Buch";
+  src: url("../assets/fonts/KMRWaldenburg-Book.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "KMR Waldenburg Halbfett";
+  src: url("../assets/fonts/KMRWaldenburg-Bold.woff") format("woff");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "KMR_Waldenburg:Normal";
+  src: url("../assets/fonts/KMRWaldenburg-Book.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "KMR_Waldenburg:Buch";
+  src: url("../assets/fonts/KMRWaldenburg-Book.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "KMR_Waldenburg:Halbfett";
+  src: url("../assets/fonts/KMRWaldenburg-Bold.woff") format("woff");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "KMR Waldenburg Fett";
+  src: url("../assets/fonts/KMRWaldenburg-Bold.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "KMR_Waldenburg:Fett";
+  src: url("../assets/fonts/KMRWaldenburg-Bold.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue_Haas_Grotesk_Display_Pro:65_Medium";
+  src: url("../assets/fonts/KMRWaldenburg-Medium.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+/* Default app text face */
+html, body, #root {
+  font-family: "KMRWaldenburg", "KMR Waldenburg", sans-serif;
+}
